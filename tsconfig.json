@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "ES2015",
+    "target": "es6",
+    "strict": true,
+    "sourceMap": true,
+    "rootDir": "src",
+    "outDir": "dist",
+    "allowJs": false,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "removeComments": true,
+    "typeRoots": ["./node_modules/@types"],
+    "types": ["node", "jest"]
+  },
+  "include": ["src/**/*", "**/*.test.ts"],
+  "exclude": ["node_modules"]
+}
