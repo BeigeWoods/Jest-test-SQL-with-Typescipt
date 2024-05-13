@@ -3,8 +3,8 @@ This project purpose to study many way to test module in typescript.
 ### Composition
 
 - _db_ : initialize _mysql2_ by `db` module
-- _index_: connect database by `db` module
-- _\*\_repository_: module handling sql
+- _index_ : connect database by `db` module
+- _\*\_repository_ : module handling sql
 
 ### Purpose per test
 
